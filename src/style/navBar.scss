@@ -1,0 +1,13 @@
+@import './variables/variables.scss';
+nav {
+	background-color: #1e1f25;
+	padding: 32px 0;
+	.navigation {
+		display: $flex;
+		justify-content: space-between;
+		align-items: center;
+		.logo {
+			padding-right: 40px;
+		}
+	}
+}

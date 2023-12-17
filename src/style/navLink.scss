@@ -1,0 +1,22 @@
+@import './variables/variables.scss';
+.nav-link-list {
+	display: $flex;
+
+	.nav-link {
+		color: $gray;
+		margin-right: 48px;
+		font-size: $small;
+		.link-items {
+			display: $flex;
+			gap: 12px;
+		}
+	}
+
+	.nav-link:last-child {
+		margin-right: 0;
+	}
+
+	.nav-link:hover {
+		color: #eaebee;
+	}
+}
