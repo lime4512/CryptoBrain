@@ -3,7 +3,7 @@ export const TotalBtn = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<div className='totalBtn'>
 			{children}
-			<img src='/total-img.svg' alt='' />
+			<img src='/total-img.svg' alt='' className='img-totalBtn' />
 		</div>
 	)
 }

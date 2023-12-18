@@ -5,7 +5,7 @@ export const Header = () => {
 		<header>
 			<HeaderText />
 			<div className='header-img'>
-				<img className='total-img' src="/SVG.png" alt="" />
+				<img className='total-img' src='/SVG.png' alt='' />
 			</div>
 		</header>
 	)
