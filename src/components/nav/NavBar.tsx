@@ -11,8 +11,8 @@ export const NavBar = () => {
 					</div>
 					<NavLink />
 					<div className='nav-btn'>
-						<button>Log In</button>
-						<button>Sign Up</button>
+						<button className='nav-btn-log'>Log In</button>
+						<button className='nav-btn-sing'>Sign Up</button>
 					</div>
 				</div>
 			</Container>

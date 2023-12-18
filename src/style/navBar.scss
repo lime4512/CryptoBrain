@@ -7,7 +7,32 @@ nav {
 		justify-content: space-between;
 		align-items: center;
 		.logo {
+			height: 35px;
 			padding-right: 40px;
+			display: $flex;
+			align-items: center;
+			border-right: 1px #adb3bf solid;
+		}
+
+		.nav-btn {
+			display: $flex;
+			gap: 10px;
+
+			.nav-btn-log {
+				width: 140px;
+				&:hover {
+					border: 1px white solid;
+				}
+			}
+
+			.nav-btn-sing {
+				width: 140px;
+				background-color: #1b70f1;
+
+				&:hover {
+					background-color: #0a264e;
+				}
+			}
 		}
 	}
 }

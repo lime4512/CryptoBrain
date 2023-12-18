@@ -10,13 +10,13 @@
 			display: $flex;
 			gap: 12px;
 		}
-	}
 
-	.nav-link:last-child {
-		margin-right: 0;
-	}
+		&:last-child {
+			margin-right: 0;
+		}
 
-	.nav-link:hover {
-		color: #eaebee;
+		&:hover {
+			color: #eaebee;
+		}
 	}
 }
