@@ -1,0 +1,25 @@
+@import './variables/variables.scss';
+
+.header-text-content {
+	.header-subTitle {
+		font-size: $smallX;
+		color: $blue;
+		font-weight: 600;
+	}
+
+	.header-title {
+		font-size: 96px;
+		font-weight: 700;
+		width: 912px;
+		letter-spacing: -1.5px;
+		margin-bottom: 30px;
+	}
+
+	.header-text {
+		width: 812px;
+		color: $gray;
+		font-size: 20px;
+		line-height: 32px;
+		margin-bottom: 80px;
+	}
+}
