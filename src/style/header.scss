@@ -2,16 +2,11 @@
 
 .header-content {
 	align-items: center;
-	margin-top: 36px;
+	margin-top: 161px;
 	display: $flex;
-	justify-content: space-between;
-	.header-img {
-		width: 714.512px;
-		height: 616.737px;
-		.total-img {
-			position: absolute;
-			right: 75px;
-			bottom: 25px;
-		}
+	position: relative;
+	.total-img {
+		position: absolute;
+		left: 55%;
 	}
 }

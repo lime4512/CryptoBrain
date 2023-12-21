@@ -2,6 +2,7 @@
 nav {
 	background-color: #1e1f25;
 	padding: 32px 0;
+	min-width: 1822px;
 	.navigation {
 		display: $flex;
 		justify-content: space-between;
@@ -32,6 +33,9 @@ nav {
 				&:hover {
 					background-color: #0a264e;
 				}
+			}
+
+			.nav-btn-mob {
 			}
 		}
 	}

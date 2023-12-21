@@ -13,6 +13,9 @@ export const NavBar = () => {
 					<div className='nav-btn'>
 						<button className='nav-btn-log'>Log In</button>
 						<button className='nav-btn-sing'>Sign Up</button>
+						<button className='nav-btn-mob'>
+							<img src='/icon-ball.svg' alt='' />
+						</button>
 					</div>
 				</div>
 			</Container>
