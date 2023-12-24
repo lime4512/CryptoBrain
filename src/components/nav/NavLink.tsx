@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react'
+import { FunctionComponent, useEffect, useState } from 'react'
 import '../../style/navLink.scss'
 
 interface Props {
@@ -6,8 +6,20 @@ interface Props {
 }
 
 export const NavLink: FunctionComponent<Props> = ({ active }) => {
+	const [actives, setActives] = useState(false)
+	useEffect(() => {
+		setActives(active)
+	}, [active])
 	return (
-		<div className={active ? 'nav-links open' : 'nav-links'}>
+		<div className={actives ? 'nav-links open' : 'nav-links'}>
+			<div className='nav-link-close-btn-block'>
+				<button
+					className='nav-link-close-btn'
+					onClick={() => setActives(false)}
+				>
+					<img src='/close_FILL0_wght400_GRAD0_opsz24.png' alt='' />
+				</button>
+			</div>
 			<ul className='nav-link-list'>
 				<li className='nav-link'>
 					<div className='link-items'>
