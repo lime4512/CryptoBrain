@@ -10,3 +10,15 @@
 		left: 55%;
 	}
 }
+
+@media (max-width: 1831px) {
+	.header-content {
+		margin-top: 20px;
+		display: block;
+		.total-img {
+			position: static;
+			width: 292.805px;
+			height: 252.737px;
+		}
+	}
+}

@@ -10,6 +10,24 @@
 	}
 }
 
+@media (max-width: 920px) {
+	.nav-btn-log {
+		display: none;
+	}
+}
+
+@media (max-width: 699px) {
+	.logo {
+		border-right: none !important;
+		width: 91.304px;
+		height: 28px;
+	}
+	.nav-btn-sing {
+		font-size: 14px;
+		background-color: inherit !important;
+	}
+}
+
 nav {
 	padding: 32px 0;
 	background-color: #1e1f25;

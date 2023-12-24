@@ -1,57 +1,6 @@
 @import './variables/variables.scss';
 
 .header-text-content {
-	.header-subTitle-content {
-		position: relative;
-		.header-subTitle {
-			font-size: $smallX;
-			color: $blue;
-			font-weight: 600;
-			margin-left: 50px;
-		}
-		&::before {
-			position: absolute;
-			content: '';
-			top: 15px;
-			height: 2px;
-			float: left;
-			width: 40px;
-			background-color: $blue;
-			border-radius: 5px;
-		}
-	}
-
-	.header-title {
-		font-size: 96px;
-		font-weight: 700;
-		width: 912px;
-		letter-spacing: -1.5px;
-		margin-bottom: 30px;
-		position: relative;
-		&::before {
-			position: absolute;
-			content: '';
-			height: 2px;
-			top: 100%;
-			left: 23%;
-			width: 547px;
-			background: linear-gradient(
-				90deg,
-				rgba(154, 195, 33, 0.1) 0%,
-				rgba(154, 195, 33, 0.8) 48.42%,
-				rgba(154, 195, 33, 0.1) 100%
-			);
-		}
-	}
-
-	.header-text {
-		width: 812px;
-		color: $gray;
-		font-size: 20px;
-		line-height: 32px;
-		margin-bottom: 80px;
-	}
-
 	.header-text-btn {
 		display: $flex;
 
@@ -66,6 +15,92 @@
 			&:hover {
 				border: none;
 			}
+		}
+	}
+}
+
+.header-title {
+	font-size: 96px;
+	font-weight: 700;
+	width: 912px;
+	letter-spacing: -1.5px;
+	margin-bottom: 30px;
+	position: relative;
+	&::before {
+		position: absolute;
+		content: '';
+		height: 2px;
+		top: 100%;
+		left: 23%;
+		width: 547px;
+		background: linear-gradient(
+			90deg,
+			rgba(154, 195, 33, 0.1) 0%,
+			rgba(154, 195, 33, 0.8) 48.42%,
+			rgba(154, 195, 33, 0.1) 100%
+		);
+	}
+}
+
+.header-text {
+	width: 812px;
+	color: $gray;
+	font-size: 20px;
+	line-height: 32px;
+	margin-bottom: 80px;
+}
+
+@media (max-width: 1831px) {
+	.header-title {
+		text-align: center;
+		width: 343px;
+		font-size: 38px;
+		&::before {
+			width: 343px;
+			left: 0;
+		}
+	}
+	.header-text {
+		text-align: center;
+		width: 343px;
+		font-size: 18px;
+	}
+}
+
+.header-subTitle-content {
+	position: relative;
+	.header-subTitle {
+		font-size: $smallX;
+		color: $blue;
+		font-weight: 600;
+		margin-left: 50px;
+	}
+	&::before {
+		position: absolute;
+		content: '';
+		top: 15px;
+		height: 2px;
+		float: left;
+		width: 40px;
+		background-color: $blue;
+		border-radius: 5px;
+	}
+}
+
+@media (max-width: 752px) {
+	.header-subTitle {
+		text-align: center;
+	}
+	.header-subTitle-content::before {
+		width: 20px;
+		margin-left: 100px;
+	}
+	.header-text-btn {
+		display: block !important;
+
+		.header-text-btn-guid {
+			margin-top: 20px;
+			margin-left: 0 !important;
 		}
 	}
 }

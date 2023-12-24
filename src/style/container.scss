@@ -2,3 +2,10 @@
 	margin: 0 150px;
 	padding: 0 15px;
 }
+
+@media (max-width: 626px) {
+	.container {
+		margin: 0 16px !important;
+		padding: 0;
+	}
+}

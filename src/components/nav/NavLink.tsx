@@ -10,6 +10,8 @@ export const NavLink: FunctionComponent<Props> = ({ active }) => {
 	useEffect(() => {
 		setActives(active)
 	}, [active])
+	console.log(actives + '1')
+	console.log(active + '2')
 	return (
 		<div className={actives ? 'nav-links open' : 'nav-links'}>
 			<div className='nav-link-close-btn-block'>
