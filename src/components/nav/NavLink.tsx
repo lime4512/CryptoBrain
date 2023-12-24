@@ -1,7 +1,13 @@
+import { FunctionComponent } from 'react'
 import '../../style/navLink.scss'
-export const NavLink = () => {
+
+interface Props {
+	active: boolean
+}
+
+export const NavLink: FunctionComponent<Props> = ({ active }) => {
 	return (
-		<div className='nav-links'>
+		<div className={active ? 'nav-links open' : 'nav-links'}>
 			<ul className='nav-link-list'>
 				<li className='nav-link'>
 					<div className='link-items'>
@@ -28,7 +34,7 @@ export const NavLink = () => {
 					</div>
 				</li>
 				<li className='nav-link'>
-					<a href='' className='nav-link-item'>
+					<a href='#' className='nav-link-item'>
 						About
 					</a>
 				</li>

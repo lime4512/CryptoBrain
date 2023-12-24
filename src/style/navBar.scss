@@ -1,8 +1,18 @@
 @import './variables/variables.scss';
+
+@media (max-width: 1305px) {
+	.nav-btn-mob {
+		display: block !important;
+	}
+
+	.navBar-list {
+		display: none;
+	}
+}
+
 nav {
-	background-color: #1e1f25;
 	padding: 32px 0;
-	min-width: 1822px;
+	background-color: #1e1f25;
 	.navigation {
 		display: $flex;
 		justify-content: space-between;
@@ -36,6 +46,7 @@ nav {
 			}
 
 			.nav-btn-mob {
+				display: none;
 			}
 		}
 	}

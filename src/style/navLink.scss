@@ -20,3 +20,26 @@
 		}
 	}
 }
+
+@media (max-width: 1305px) {
+	.nav-links {
+		display: block;
+	}
+
+	.nav-links.open .nav-link-list {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #1e1f25;
+		z-index: 1;
+		padding: 30px 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+
+		font-size: 38px;
+		font-weight: 700;
+	}
+}
