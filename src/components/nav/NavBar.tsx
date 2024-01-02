@@ -4,6 +4,10 @@ import { Container } from '../Container'
 import { NavLink } from './NavLink'
 export const NavBar = () => {
 	const [menuActive, setMenuActive] = useState(false)
+
+	const handelMenuActive = () => {
+		setMenuActive(false)
+	}
 	return (
 		<nav>
 			<Container>
@@ -11,7 +15,7 @@ export const NavBar = () => {
 					<div className='logo'>
 						<img src='Logo-img.svg' alt='' />
 					</div>
-					<NavLink active={menuActive} />
+					<NavLink active={menuActive} handelMenu={handelMenuActive} />
 
 					<div className='nav-btn'>
 						<button className='nav-btn-log'>Log In</button>

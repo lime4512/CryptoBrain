@@ -3,21 +3,23 @@ import '../../style/navLink.scss'
 
 interface Props {
 	active: boolean
+	handelMenu: () => void
 }
 
-export const NavLink: FunctionComponent<Props> = ({ active }) => {
+export const NavLink: FunctionComponent<Props> = ({ active, handelMenu }) => {
 	const [actives, setActives] = useState(false)
 	useEffect(() => {
 		setActives(active)
 	}, [active])
-	console.log(actives + '1')
-	console.log(active + '2')
 	return (
 		<div className={actives ? 'nav-links open' : 'nav-links'}>
 			<div className='nav-link-close-btn-block'>
 				<button
 					className='nav-link-close-btn'
-					onClick={() => setActives(false)}
+					onClick={() => {
+						setActives(false)
+						handelMenu()
+					}}
 				>
 					<img src='/close_FILL0_wght400_GRAD0_opsz24.png' alt='' />
 				</button>
