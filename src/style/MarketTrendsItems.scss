@@ -1,0 +1,33 @@
+.marketTrends-card-content {
+	padding: 40px 30px;
+	border-radius: 10px;
+	text-align: center;
+	border: 2px solid var(--Bg-Card-Bg-2, #1e1f25);
+
+	.marketTrends-card-title {
+		font-size: 20px;
+		line-height: 32px;
+		font-weight: 400;
+		margin: 20px 0 10px 0;
+	}
+	.marketTrends-card-price {
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 36px;
+		margin: 20px 0;
+	}
+}
+
+.marketTrends-card-arrow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.marketTrends-card-percent {
+		margin-left: 6px;
+		font-size: 16px;
+		color: #06b470;
+		font-weight: 600;
+		line-height: 24px;
+	}
+}

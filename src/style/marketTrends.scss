@@ -1,0 +1,50 @@
+.marketTrends-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	&::after {
+		position: absolute;
+		content: '';
+		width: 1590px;
+		height: 1px;
+		top: 100%;
+		background: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0.04) 0%,
+			rgba(255, 255, 255, 0.2) 48.42%,
+			rgba(255, 255, 255, 0.04) 100%
+		);
+	}
+	.marketTrends-text {
+		font-size: 58px;
+		font-weight: 700;
+	}
+	.marketTrends-nav {
+		display: flex;
+		gap: 30px;
+		.marketTrends-nav-item {
+			color: #adb3bf;
+			line-height: 32px;
+			cursor: pointer;
+			transition: 0.4s;
+			&:hover {
+				color: #e6e9f0;
+			}
+		}
+	}
+}
+
+.marketTrends-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-bottom: 60px;
+}
+
+.marketTrends-btn {
+	display: flex;
+	justify-content: center;
+}
