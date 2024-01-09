@@ -3,6 +3,7 @@ import { Header } from './components/header/Header'
 import { Container } from './components/Container'
 import './style/App.scss'
 import { MarketTrends } from './components/marketTrends/MarketTrends'
+import { Trading } from './components/trading/Trading'
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<Header />
 				<MarketTrends />
 			</Container>
+			<Trading />
 		</div>
 	)
 }

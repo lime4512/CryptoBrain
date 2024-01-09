@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react'
-import '../../style/MarketTrendsItems.scss'
+import '../../style/marketTrendsItems.scss'
 interface Props {
 	coinImg: string
 	coinName: string

@@ -1,0 +1,37 @@
+.total-futures {
+	width: 1050px;
+
+	.total-title {
+		text-align: center;
+		font-size: 58px;
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+	.total-text {
+		text-align: center;
+		font-size: 18px;
+		color: #adb3bf;
+		font-weight: 400;
+		line-height: 28px;
+		margin-bottom: 60px;
+	}
+}
+
+.total-text-title {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	&::before {
+		position: absolute;
+		content: '';
+		width: 1590px;
+		height: 1px;
+		top: 100%;
+		background: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0.04) 0%,
+			rgba(255, 255, 255, 0.2) 48.42%,
+			rgba(255, 255, 255, 0.04) 100%
+		);
+	}
+}
