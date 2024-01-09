@@ -17,12 +17,42 @@ export const MarketTrends = () => {
 				</ul>
 			</div>
 			<div className='marketTrends-list'>
-				<MarketTrendsItems />
-				<MarketTrendsItems />
-				<MarketTrendsItems />
-				<MarketTrendsItems />
-				<MarketTrendsItems />
-				<MarketTrendsItems />
+				<MarketTrendsItems
+					coinImg='/public/Market-btc.svg'
+					coinName='Bitcoin / BTC'
+					coinPrice='420.83'
+					coinArrow='/public/arrow-green.svg'
+				/>
+				<MarketTrendsItems
+					coinImg='/public/Market-BTS.svg'
+					coinName='BTS / BTC'
+					coinPrice='420.83'
+					coinArrow='/public/arrow-red.svg'
+				/>
+				<MarketTrendsItems
+					coinImg='/public/Market-DGD.svg'
+					coinName='DGD / BTC'
+					coinPrice='420.83'
+					coinArrow='/public/arrow-red.svg'
+				/>
+				<MarketTrendsItems
+					coinImg='/public/Market-Ethos.svg'
+					coinName='Ethos / BTC'
+					coinPrice='420.83'
+					coinArrow='/public/arrow-green.svg'
+				/>
+				<MarketTrendsItems
+					coinImg='/public/Market-KMD.svg'
+					coinName='KMD / BTC'
+					coinPrice='420.83'
+					coinArrow='/public/arrow-green.svg'
+				/>
+				<MarketTrendsItems
+					coinImg='/public/Market-Etp.svg'
+					coinName='Etp / BTC'
+					coinPrice='420.83'
+					coinArrow='/public/arrow-red.svg'
+				/>
 			</div>
 			<div className='marketTrends-btn'>
 				<TotalBtn>See All Market</TotalBtn>

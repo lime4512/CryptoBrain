@@ -1,21 +1,41 @@
+import { FunctionComponent } from 'react'
 import '../../style/MarketTrendsItems.scss'
+interface Props {
+	coinImg: string
+	coinName: string
+	coinPrice: string
+	coinArrow: string
+}
 
-export const MarketTrendsItems = () => {
+export const MarketTrendsItems: FunctionComponent<Props> = ({
+	coinImg,
+	coinName,
+	coinPrice,
+	coinArrow,
+}) => {
 	return (
 		<div className='marketTrends-card-content'>
-			<img
-				src='/Market-btc.svg'
-				alt=''
-				className='marketTrends-card-total-img'
-			/>
-			<h2 className='marketTrends-card-title'>Bitcoin / BTC</h2>
+			<img src={coinImg} alt='' className='marketTrends-card-total-img' />
+			<h2 className='marketTrends-card-title'>{coinName}</h2>
 			<div className='marketTrends-card-arrow'>
-				<img src='/arrow-green.svg' alt='' />
-				<span className='marketTrends-card-percent'>5.76%</span>
+				<img src={coinArrow} alt='' />
+				<span
+					className={
+						coinArrow == '/public/arrow-red.svg'
+							? 'marketTrends-card-percent red'
+							: 'marketTrends-card-percent'
+					}
+				>
+					5.76%
+				</span>{' '}
 			</div>
-			<h2 className='marketTrends-card-price'>₹ 28,214,25.341</h2>
+			<h2 className='marketTrends-card-price'>₹ {coinPrice}</h2>
 			<img
-				src='/public/Property1=Up.png'
+				src={
+					coinArrow == '/public/arrow-red.svg'
+						? '/public/Property2=Down.png'
+						: '/public/Property1=Up.png'
+				}
 				alt=''
 				className='marketTrends-card-schedule'
 			/>
