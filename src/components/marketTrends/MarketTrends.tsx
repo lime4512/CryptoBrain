@@ -18,40 +18,40 @@ export const MarketTrends = () => {
 			</div>
 			<div className='marketTrends-list'>
 				<MarketTrendsItems
-					coinImg='/public/Market-btc.svg'
+					coinImg='/Market-btc.svg'
 					coinName='Bitcoin / BTC'
 					coinPrice='420.83'
-					coinArrow='/public/arrow-green.svg'
+					coinArrow='/arrow-green.svg'
 				/>
 				<MarketTrendsItems
-					coinImg='/public/Market-BTS.svg'
+					coinImg='/Market-BTS.svg'
 					coinName='BTS / BTC'
 					coinPrice='420.83'
-					coinArrow='/public/arrow-red.svg'
+					coinArrow='/arrow-red.svg'
 				/>
 				<MarketTrendsItems
-					coinImg='/public/Market-DGD.svg'
+					coinImg='/Market-DGD.svg'
 					coinName='DGD / BTC'
 					coinPrice='420.83'
-					coinArrow='/public/arrow-red.svg'
+					coinArrow='/arrow-red.svg'
 				/>
 				<MarketTrendsItems
-					coinImg='/public/Market-Ethos.svg'
+					coinImg='/Market-Ethos.svg'
 					coinName='Ethos / BTC'
 					coinPrice='420.83'
-					coinArrow='/public/arrow-green.svg'
+					coinArrow='/arrow-green.svg'
 				/>
 				<MarketTrendsItems
-					coinImg='/public/Market-KMD.svg'
+					coinImg='/Market-KMD.svg'
 					coinName='KMD / BTC'
 					coinPrice='420.83'
-					coinArrow='/public/arrow-green.svg'
+					coinArrow='/arrow-green.svg'
 				/>
 				<MarketTrendsItems
-					coinImg='/public/Market-Etp.svg'
+					coinImg='/Market-Etp.svg'
 					coinName='Etp / BTC'
 					coinPrice='420.83'
-					coinArrow='/public/arrow-red.svg'
+					coinArrow='/arrow-red.svg'
 				/>
 			</div>
 			<div className='marketTrends-btn'>

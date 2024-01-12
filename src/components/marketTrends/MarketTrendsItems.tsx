@@ -21,20 +21,20 @@ export const MarketTrendsItems: FunctionComponent<Props> = ({
 				<img src={coinArrow} alt='' />
 				<span
 					className={
-						coinArrow == '/public/arrow-red.svg'
+						coinArrow == '/arrow-red.svg'
 							? 'marketTrends-card-percent red'
 							: 'marketTrends-card-percent'
 					}
 				>
 					5.76%
-				</span>{' '}
+				</span>
 			</div>
 			<h2 className='marketTrends-card-price'>₹ {coinPrice}</h2>
 			<img
 				src={
-					coinArrow == '/public/arrow-red.svg'
-						? '/public/Property2=Down.png'
-						: '/public/Property1=Up.png'
+					coinArrow == '/arrow-red.svg'
+						? '/Property2=Down.png'
+						: '/Property1=Up.png'
 				}
 				alt=''
 				className='marketTrends-card-schedule'

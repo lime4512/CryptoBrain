@@ -1,0 +1,56 @@
+.tradingItem {
+	padding: 60px 30px;
+	border-radius: 10px;
+	background-color: #272a34;
+	display: inline-block;
+	text-align: center;
+	.tradingItem-icons {
+		display: inline-block;
+		width: 62px;
+		height: 62px;
+		padding: 12px;
+		background-color: #f8931a;
+		border-radius: 50%;
+		margin-bottom: 40px;
+	}
+
+	.tradingItem-title {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 36px;
+		margin-bottom: 20px;
+	}
+	.tradingItem-text {
+		display: inline-block;
+		font-size: 16px;
+		color: #adb3bf;
+		font-weight: 400;
+		width: 278px;
+		line-height: 24px;
+		margin-bottom: 40px;
+	}
+
+	.tradingItem-btn {
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		.tradingItem-btn-arrow {
+			margin-left: 8px;
+		}
+	}
+}
+
+.fel {
+	background-color: #bd47fc !important;
+}
+
+.gre {
+	background-color: #27c28a !important;
+}
+
+.red {
+	background-color: #f72357 !important;
+}
