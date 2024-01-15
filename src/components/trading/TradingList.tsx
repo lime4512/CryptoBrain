@@ -31,7 +31,7 @@ printing and typesetting industry.'
 			/>
 			<TradingItem
 				imgIcons='/Component4.svg'
-				imgColor='red'
+				imgColor='reds'
 				title='Start Trading'
 				text='Lorem Ipsum is simply dummy text of the 
 printing and typesetting industry.'
