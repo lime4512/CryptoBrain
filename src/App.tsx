@@ -5,6 +5,7 @@ import './style/App.scss'
 import { MarketTrends } from './components/marketTrends/MarketTrends'
 import { Trading } from './components/trading/Trading'
 import { Choose } from './components/choose/Choose'
+import { About } from './components/about/About'
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			</Container>
 			<Trading />
 			<Choose />
+			<About />
 		</div>
 	)
 }
