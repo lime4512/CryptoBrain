@@ -1,0 +1,50 @@
+.sliderSimple {
+	width: 1590px;
+}
+.slick-slide {
+	margin-left: 30px;
+}
+
+.slick-slider .slick-dots {
+	display: flex !important;
+	justify-content: center;
+	bottom: -51px;
+}
+
+.slick-slider .slick-dots li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.slick-slider .slick-dots li button {
+	padding: 0;
+	font-size: 0;
+	max-width: 100%;
+	width: 30px;
+	height: 4px;
+	opacity: 0.2;
+	background-color: #b9b5b5;
+	border: none;
+	outline: transparent;
+	border-radius: 0;
+}
+
+.slick-slider .slick-dots li button:hover {
+	background-color: #fff;
+}
+
+.slick-slider .slick-dots li.slick-active button {
+	background-color: #fff;
+	opacity: 1;
+	outline: transparent;
+	min-width: 40px !important;
+}
+
+.slick-slider .slick-dots li button:before,
+.slick-slider .slick-dots li.slick-active button:before {
+	color: transparent;
+}

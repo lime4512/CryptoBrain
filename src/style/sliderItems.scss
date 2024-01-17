@@ -1,0 +1,33 @@
+.sliderItem {
+	background-color: #272a34;
+	border-radius: 10px;
+	padding: 40px 30px;
+	max-width: 645px;
+	.user-content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 20px;
+
+		.user-text {
+			width: 401px;
+			.user-name {
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 32px;
+			}
+			.user-country {
+				font-size: 14px;
+				line-height: 20px;
+				color: #bfc4cd;
+			}
+		}
+		margin-bottom: 30px;
+	}
+
+	.sliderItem-text {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 36px;
+	}
+}
