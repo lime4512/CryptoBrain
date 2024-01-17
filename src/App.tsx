@@ -6,6 +6,7 @@ import { MarketTrends } from './components/marketTrends/MarketTrends'
 import { Trading } from './components/trading/Trading'
 import { Choose } from './components/choose/Choose'
 import { About } from './components/about/About'
+import { Download } from './components/download/Download'
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<Trading />
 			<Choose />
 			<About />
+			<Download />
 		</div>
 	)
 }
