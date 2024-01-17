@@ -7,6 +7,7 @@ import { Trading } from './components/trading/Trading'
 import { Choose } from './components/choose/Choose'
 import { About } from './components/about/About'
 import { Download } from './components/download/Download'
+import { Questions } from './components/questions/Questions'
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<Choose />
 			<About />
 			<Download />
+			<Questions />
 		</div>
 	)
 }
