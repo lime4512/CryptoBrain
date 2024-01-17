@@ -8,6 +8,7 @@ import { Choose } from './components/choose/Choose'
 import { About } from './components/about/About'
 import { Download } from './components/download/Download'
 import { Questions } from './components/questions/Questions'
+import { Footer } from './components/footer/Footer'
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 			<About />
 			<Download />
 			<Questions />
+			<Footer />
 		</div>
 	)
 }
