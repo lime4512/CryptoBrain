@@ -4,7 +4,7 @@ import { TradingList } from './TradingList'
 import '../../style/trading.scss'
 export const Trading = () => {
 	return (
-		<div className='trading'>
+		<section className='trading'>
 			<Container>
 				<div className='trading-text'>
 					<TotalText
@@ -14,6 +14,6 @@ export const Trading = () => {
 				</div>
 				<TradingList />
 			</Container>
-		</div>
+		</section>
 	)
 }

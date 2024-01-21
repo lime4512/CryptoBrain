@@ -28,6 +28,10 @@
 		gap: 8px;
 		min-width: 140px;
 		white-space: nowrap;
+		transition: 0.4s;
+		&:hover {
+			border: 1px solid #fff;
+		}
 	}
 }
 

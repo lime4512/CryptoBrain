@@ -1,7 +1,7 @@
 import '../../style/download.scss'
 export const Download = () => {
 	return (
-		<div className='download'>
+		<section className='download'>
 			<div className='download-content'>
 				<h1 className='download-title'>
 					Never Miss Trading, Download Our Application
@@ -34,6 +34,6 @@ export const Download = () => {
 				</div>
 			</div>
 			<img src='/download-img.png' alt='' />
-		</div>
+		</section>
 	)
 }

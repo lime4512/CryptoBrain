@@ -4,7 +4,7 @@ import { SliderSimple } from './SliderSimple'
 
 export const About = () => {
 	return (
-		<div className='about'>
+		<section className='about'>
 			<Container>
 				<div className='about-text-content'>
 					<h1 className='about-title'>What Traders Saying About Us! </h1>
@@ -16,6 +16,6 @@ export const About = () => {
 				</div>
 				<SliderSimple />
 			</Container>
-		</div>
+		</section>
 	)
 }

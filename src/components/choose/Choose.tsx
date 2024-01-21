@@ -4,7 +4,7 @@ import { Container } from '../Container'
 import '../../style/choose.scss'
 export const Choose = () => {
 	return (
-		<div className='choose'>
+		<section className='choose'>
 			<Container>
 				<div className='choose-text'>
 					<TotalText
@@ -17,6 +17,6 @@ export const Choose = () => {
 					<img src='/choose-img.png' alt='' />
 				</div>
 			</Container>
-		</div>
+		</section>
 	)
 }

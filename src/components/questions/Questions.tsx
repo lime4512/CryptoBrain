@@ -4,7 +4,7 @@ import '../../style/questions.scss'
 import { QuestionsList } from './QuestionsList'
 export const Questions = () => {
 	return (
-		<div className='questions'>
+		<section className='questions'>
 			<Container>
 				<TotalText
 					title='Frequently Asked Questions'
@@ -12,6 +12,6 @@ export const Questions = () => {
 				/>
 				<QuestionsList />
 			</Container>
-		</div>
+		</section>
 	)
 }

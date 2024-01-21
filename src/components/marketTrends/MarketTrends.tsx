@@ -4,7 +4,7 @@ import '../../style/marketTrends.scss'
 
 export const MarketTrends = () => {
 	return (
-		<div className='market'>
+		<section className='market'>
 			<div className='marketTrends-title'>
 				<h1 className='marketTrends-text'>Market Trends</h1>
 				<ul className='marketTrends-nav'>
@@ -57,6 +57,6 @@ export const MarketTrends = () => {
 			<div className='marketTrends-btn'>
 				<TotalBtn>See All Market</TotalBtn>
 			</div>
-		</div>
+		</section>
 	)
 }
